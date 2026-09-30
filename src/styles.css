@@ -2020,7 +2020,7 @@ select {
 
 /* ---------- Brush underline, doodles, torn paper ---------- */
 .brush {
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 24' preserveAspectRatio='none'%3E%3Cpath fill='%23879845' d='M3 13.5C38 8 92 6.2 150 6.6c52 .3 104 1.8 146 4.6 1.6.1 1.7 2.4.1 2.6-33 3.5-79 6.4-128 7.1-60 .9-118-.6-164-3.4-2.5-.2-3.2-3.5-1.1-4Z'/%3E%3Cpath fill='%23879845' opacity='.55' d='M20 18.5c50 2 150 2.4 250-1.5-60 5-170 6-250 1.5Z'/%3E%3C/svg%3E")
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 24' preserveAspectRatio='none'%3E%3Cpath fill='%2399caea' d='M3 13.5C38 8 92 6.2 150 6.6c52 .3 104 1.8 146 4.6 1.6.1 1.7 2.4.1 2.6-33 3.5-79 6.4-128 7.1-60 .9-118-.6-164-3.4-2.5-.2-3.2-3.5-1.1-4Z'/%3E%3Cpath fill='%2399caea' opacity='.55' d='M20 18.5c50 2 150 2.4 250-1.5-60 5-170 6-250 1.5Z'/%3E%3C/svg%3E")
     no-repeat left bottom / 100% 0.3em;
   padding-bottom: 0.14em;
   -webkit-box-decoration-break: clone;
@@ -2077,7 +2077,7 @@ select {
 }
 .band::before,
 .band::after {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 28' preserveAspectRatio='none'%3E%3Cpath fill='%236b7a2e' d='M0 28 L0 6.5 L18 7.5 L33 3.0 L64 3.3 L96 2.8 L126 5.0 L142 8.1 L158 5.4 L189 7.9 L221 3.7 L242 10.8 L274 15.3 L306 10.2 L321 15.7 L336 9.8 L354 6.1 L372 9.6 L404 6.3 L439 4.5 L471 10.0 L491 7.2 L522 12.0 L554 2.8 L574 8.9 L605 8.0 L629 8.5 L657 7.1 L678 13.1 L714 12.9 L730 10.0 L760 8.9 L784 12.2 L807 10.5 L823 3.7 L850 4.3 L874 4.1 L903 7.9 L938 3.1 L969 10.0 L993 6.8 L1018 10.3 L1050 13.2 L1066 13.8 L1088 8.6 L1123 2.9 L1160 11.8 L1194 10.1 L1229 13.5 L1252 12.0 L1287 6.9 L1315 7.0 L1348 3.6 L1363 5.1 L1386 3.8 L1407 7.6 L1436 3.1 L1440 7.6 L1440 28 Z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 28' preserveAspectRatio='none'%3E%3Cpath fill='%2399caea' d='M0 28 L0 6.5 L18 7.5 L33 3.0 L64 3.3 L96 2.8 L126 5.0 L142 8.1 L158 5.4 L189 7.9 L221 3.7 L242 10.8 L274 15.3 L306 10.2 L321 15.7 L336 9.8 L354 6.1 L372 9.6 L404 6.3 L439 4.5 L471 10.0 L491 7.2 L522 12.0 L554 2.8 L574 8.9 L605 8.0 L629 8.5 L657 7.1 L678 13.1 L714 12.9 L730 10.0 L760 8.9 L784 12.2 L807 10.5 L823 3.7 L850 4.3 L874 4.1 L903 7.9 L938 3.1 L969 10.0 L993 6.8 L1018 10.3 L1050 13.2 L1066 13.8 L1088 8.6 L1123 2.9 L1160 11.8 L1194 10.1 L1229 13.5 L1252 12.0 L1287 6.9 L1315 7.0 L1348 3.6 L1363 5.1 L1386 3.8 L1407 7.6 L1436 3.1 L1440 7.6 L1440 28 Z'/%3E%3C/svg%3E");
 }
 .section--tint + .section,
 .band + .section,
@@ -2493,8 +2493,8 @@ select {
   background: linear-gradient(
     90deg,
     var(--olive-deep) 0%,
-    rgb(107 122 46 / 0.85) 45%,
-    rgb(107 122 46 / 0.4) 100%
+    rgb(153 202 234 / 0.85) 45%,
+    rgb(153 202 234 / 0.4) 100%
   );
 }
 .donate-band-copy .body,
@@ -2548,20 +2548,20 @@ select {
     padding-top: 88px;
   }
   .donate-band-media .figure-frame::after {
-    background: rgb(107 122 46 / 0.9);
+    background: rgb(153 202 234 / 0.9);
   }
 }
 
 /* Brush stroke turns white on olive bands */
 .band .brush {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 24' preserveAspectRatio='none'%3E%3Cpath fill='%23ffffff' d='M3 13.5C38 8 92 6.2 150 6.6c52 .3 104 1.8 146 4.6 1.6.1 1.7 2.4.1 2.6-33 3.5-79 6.4-128 7.1-60 .9-118-.6-164-3.4-2.5-.2-3.2-3.5-1.1-4Z'/%3E%3Cpath fill='%23ffffff' opacity='.55' d='M20 18.5c50 2 150 2.4 250-1.5-60 5-170 6-250 1.5Z'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 24' preserveAspectRatio='none'%3E%3Cpath fill='%231a1a1a' d='M3 13.5C38 8 92 6.2 150 6.6c52 .3 104 1.8 146 4.6 1.6.1 1.7 2.4.1 2.6-33 3.5-79 6.4-128 7.1-60 .9-118-.6-164-3.4-2.5-.2-3.2-3.5-1.1-4Z'/%3E%3Cpath fill='%231a1a1a' opacity='.55' d='M20 18.5c50 2 150 2.4 250-1.5-60 5-170 6-250 1.5Z'/%3E%3C/svg%3E");
 }
 .donate-band-media .figure-frame::after {
   background: linear-gradient(
     90deg,
     var(--olive-deep) 0%,
-    rgb(107 122 46 / 0.92) 45%,
-    rgb(107 122 46 / 0.6) 100%
+    rgb(153 202 234 / 0.92) 45%,
+    rgb(153 202 234 / 0.6) 100%
   );
 }
 @media (max-width: 380px) {
@@ -2580,7 +2580,7 @@ select {
 }
 @media (max-width: 960px) {
   .donate-band-media .figure-frame::after {
-    background: rgb(107 122 46 / 0.92);
+    background: rgb(153 202 234 / 0.92);
   }
 }
 
@@ -2648,4 +2648,100 @@ select {
   .hero-inner .lede {
     max-width: none;
   }
+}
+
+/* ==========================================================================
+   PALETTE — sky blue #99caea
+   Fills use #99caea with ink text (9.9:1). Small accent text on white uses
+   --sky-ink #35739a (5.2:1). Overrides the olive palette above.
+   ========================================================================== */
+:root {
+  --olive: #99caea;
+  --olive-deep: #99caea;
+  --sky-ink: #35739a;
+  --accent: var(--sky-ink);
+  --accent-soft: #d6e9f6;
+  --gold: #99caea;
+}
+
+/* Text on sky fills is ink, not white */
+.donate-block,
+.btn-gold,
+.band--ink,
+.band .h2,
+.band .callout-body,
+.band .callout-body strong,
+.band .callout-lines,
+.band .callout-italic,
+.band .small-print,
+.donate-band-copy .h2,
+.donate-band-copy .stat-num,
+.donate-band-copy .stat-label,
+.donate-band-copy .body,
+.donate-band-copy .eyebrow,
+.donate-band-copy .eyebrow-num,
+.card--link:hover,
+.card.is-selected,
+.donate-form--gold .btn-solid {
+  color: var(--ink);
+}
+.band .callout-body {
+  color: var(--ink-2);
+}
+.donate-band-copy .stat {
+  border-color: rgb(26 26 26 / 0.35);
+}
+.card--link:hover .body,
+.card.is-selected .body,
+.card--link:hover .card-note,
+.card.is-selected .card-note {
+  color: var(--ink-2);
+}
+
+/* Hover states: ink block with white text */
+.donate-block:hover,
+.btn-gold:hover,
+.btn-light:hover,
+.band .btn-gold:hover,
+.band .btn-light:hover,
+.donate-form--gold .btn-solid:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.btn-solid:hover {
+  background: var(--sky-ink);
+  border-color: var(--sky-ink);
+}
+
+/* Buttons inside sky bands */
+.band .btn-gold {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.band .btn-gold:hover {
+  background: var(--paper);
+  border-color: var(--paper);
+  color: var(--ink);
+}
+.band .btn-light {
+  background: transparent;
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+/* Hero (dark) keeps white text; eyebrow picks up the sky tone */
+.hero-inner .eyebrow {
+  color: var(--olive);
+}
+.donate-form--gold .check-row input {
+  accent-color: var(--sky-ink);
+}
+.site-header .nav-link:hover,
+.site-header .nav-link.is-active {
+  color: var(--sky-ink);
+}
+.donate-band-media .figure-frame img {
+  filter: grayscale(1) contrast(1.03);
 }
